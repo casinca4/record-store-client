@@ -1,0 +1,132 @@
+Braucht man height?		to make sure
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: $color5;
+}
+
+
+
+
+
+was machen die?
+#root
+	  #app {
+    height: 100%;
+    width: 100%;
+
+
+Wo ist page?					ist da
+  #app {
+    height: 100%;
+    width: 100%;
+    .page {
+      height: 100%;
+      width: 100%;
+      padding: 80px 20px;
+      color: white;
+    }
+
+
+Wieso ist das in nav?			div
+ .flex-row-center {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+
+Was macht das?			div
+.fifty {
+      width: 50%;
+    }
+
+
+Unterschied top, margin
+ #navigation {
+    padding: 20px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+position fix, relative, absoloute: move the elements with top, left, right, botoom
+
+
+
+Was macht das?
+  #logo {
+      p {
+        margin: 0;
+      }
+    }
+
+
+Warum brauchen wir position fixed?
+  #sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    padding-top: 70px;
+    color: white;
+    transform: translateX(-100%);
+    transition: all 0.2s;
+    .social {
+      font-size: 1.4em;
+      svg {
+        margin-right: 10px;
+        cursor: pointer;
+      }
+    }
+
+Wenn man position fixed remove, dann ist wie display block.
+
+
+Wo ist das?		gefunden
+.social {
+      font-size: 1.4em;
+svg {
+        margin-right: 10px;
+        cursor: pointer;
+      }
+
+.menu-item {
+      margin: 10px 0;
+      a {
+        color: white;
+        text-decoration: none;
+        svg {
+          margin-right: 10px;
+        }
+      }
+    }
+
+
+height: wird größer
+wozu brauchen wir margin?
+ #monkey {
+      .right {
+        color: white;
+        padding: 20px;
+        h1 {
+          font-size: 3em;
+        }
+        h3 {
+          font-size: 1.5em;
+        }
+      }
+      .left {
+        img {
+          height: 70vh;
+          margin-right: 50px;
+        }
+
+
